@@ -1,0 +1,28 @@
+[36mvite v7.3.0 [32mbuilding client environment for production...[36m[39m
+transforming...
+Error: Cannot apply unknown utility class `bg-paper-bg`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    at onInvalidCandidate (D:\project\mao\node_modules\tailwindcss\dist\lib.js:21:1314)
+    at Te (D:\project\mao\node_modules\tailwindcss\dist\lib.js:16:36652)
+    at D:\project\mao\node_modules\tailwindcss\dist\lib.js:21:355
+    at Rr (D:\project\mao\node_modules\tailwindcss\dist\lib.js:3:1718)
+    at _ (D:\project\mao\node_modules\tailwindcss\dist\lib.js:3:1377)
+    at $e (D:\project\mao\node_modules\tailwindcss\dist\lib.js:21:172)
+    at un (D:\project\mao\node_modules\tailwindcss\dist\lib.js:38:294)
+    at async cn (D:\project\mao\node_modules\tailwindcss\dist\lib.js:38:631)
+    at async Xr (D:\project\mao\node_modules\@tailwindcss\node\dist\index.js:10:3417)
+    at async I (D:\project\mao\node_modules\@tailwindcss\postcss\dist\index.js:10:3977)
+[32m鉁?[39m 1015 modules transformed.
+鉁?[39m Build failed in 2.59s
+error during build:
+[vite:css] [postcss] tailwindcss: D:/project/mao/src/index.css:1:1: Cannot apply unknown utility class `bg-paper-bg`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+file: D:/project/mao/src/index.css:1:0
+    at Input.error (D:\project\mao\node_modules\postcss\lib\input.js:135:16)
+    at Root.error (D:\project\mao\node_modules\postcss\lib\node.js:146:32)
+    at Object.Once (D:\project\mao\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)
+    at async LazyResult.runAsync (D:\project\mao\node_modules\postcss\lib\lazy-result.js:293:11)
+    at async runPostCSS (file:///D:/project/mao/node_modules/vite/dist/node/chunks/config.js:30144:19)
+    at async compilePostCSS (file:///D:/project/mao/node_modules/vite/dist/node/chunks/config.js:30128:6)
+    at async compileCSS (file:///D:/project/mao/node_modules/vite/dist/node/chunks/config.js:30058:26)
+    at async Object.handler (file:///D:/project/mao/node_modules/vite/dist/node/chunks/config.js:29591:54)
+    at async transform (file:///D:/project/mao/node_modules/rollup/dist/es/shared/node-entry.js:21234:16)
+    at async ModuleLoader.addModuleSource (file:///D:/project/mao/node_modules/rollup/dist/es/shared/node-entry.js:21448:36)
